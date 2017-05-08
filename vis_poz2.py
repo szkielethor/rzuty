@@ -50,7 +50,7 @@ tarcza = box(pos = (15.5,3.5,0), lenght = 1, width = 3, height = 3, material = t
 
 #time.sleep(3.0)
 while kulka.pos.y >= promien:
-    rate(25)
+    rate(30)
     y = y - vy*dt - (g*dt**2)/2
     vy = vy + g*dt
     x = x + vx*dt
